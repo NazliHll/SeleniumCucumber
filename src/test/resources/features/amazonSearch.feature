@@ -6,3 +6,4 @@ Feature: Amazon Search
     Then kullanici Nutella icin arama yapar
     And sonuclarin Nutella icerdigini test eder
     And sayfayi kapatir
+
