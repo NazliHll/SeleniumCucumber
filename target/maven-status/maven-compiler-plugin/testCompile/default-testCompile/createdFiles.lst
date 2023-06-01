@@ -1,5 +1,7 @@
 pages\AmazonPage.class
 stepDefinitions\AmazonStepDefinition.class
-utilities\ConfigReader.class
 runners\Runner.class
 utilities\Driver.class
+pages\HMCPage.class
+utilities\ConfigReader.class
+stepDefinitions\HMCStepDefinition.class
