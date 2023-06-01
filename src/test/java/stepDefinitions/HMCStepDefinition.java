@@ -44,4 +44,19 @@ public class HMCStepDefinition {
     public void ilerleBaglantisinaTiklar() {
         hmcPage.ilerle.click();
     }
+
+    @And("gecersiz password girer")
+    public void gecersizPasswordGirer() {
+        hmcPage.passwordKutusu.sendKeys(ConfigReader.getProperty("hmcWrongPassword"));
+    }
+
+    @Then("sayfaya giris yapilamadigini kontrol eder")
+    public void sayfayaGirisYapilamadiginiKontrolEder() {
+        Assert.assertTrue(hmcPage.loginButonu2.isDisplayed());
+    }
+
+    @And("gecersiz username girer")
+    public void gecersizUsernameGirer() {
+        hmcPage.usernameKutusu.sendKeys(ConfigReader.getProperty("hmcWrongUsername"));
+    }
 }
