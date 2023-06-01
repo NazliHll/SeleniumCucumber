@@ -3,5 +3,7 @@ stepDefinitions\AmazonStepDefinition.class
 runners\Runner.class
 utilities\Driver.class
 pages\HMCPage.class
+pages\DataTablesPage.class
 utilities\ConfigReader.class
 stepDefinitions\HMCStepDefinition.class
+stepDefinitions\DataTablesStepDefinition.class
