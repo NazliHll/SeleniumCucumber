@@ -12,5 +12,5 @@ Feature: US1007 kullanici amazonda istenilen kelimeleri aratir
     |java         |
     |elma         |
     |armut        |
-    
+
 
