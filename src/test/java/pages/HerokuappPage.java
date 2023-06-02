@@ -16,4 +16,3 @@ public class HerokuappPage {
     @FindBy(xpath = "//button[text()='Delete']")
     public WebElement deleteButton;
 }
-

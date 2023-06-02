@@ -4,6 +4,8 @@ runners\Runner.class
 utilities\Driver.class
 pages\HMCPage.class
 pages\DataTablesPage.class
+stepDefinitions\HerokuappStepDefinition.class
 utilities\ConfigReader.class
 stepDefinitions\HMCStepDefinition.class
 stepDefinitions\DataTablesStepDefinition.class
+pages\HerokuappPage.class
