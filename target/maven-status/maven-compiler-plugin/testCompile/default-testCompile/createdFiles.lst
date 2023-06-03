@@ -3,7 +3,7 @@ pages\GuruPage.class
 stepDefinitions\DataTablesStepDefinition.class
 pages\HerokuappPage.class
 pages\AmazonPage.class
-runners\Runner.class
+runners\TestRunner.class
 utilities\Driver.class
 pages\HMCPage.class
 stepDefinitions\Hooks.class
